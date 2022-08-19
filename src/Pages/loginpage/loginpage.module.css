@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  place-content: center;
+  background-color: aliceblue;
+}
+
+form {
+  padding: 20px;
+  width: 200px;
+  border: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formfield {
+  display: flex;
+  flex-direction: column;
+}
